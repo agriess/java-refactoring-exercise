@@ -13,8 +13,6 @@ The idea of this exercise is to evaluate your ability to identify poor coding pr
 The main project is a very basic user management application. We are not looking to add any supplementary features, instead we are verifying the following items:
 
 * Your knowledge of REST
-* Your knowledge of Maven
-* Your knowledge of Spring
 * Your ability to identify and refactor poor Java code
 * Your ability to identify and fix bugs
 * Your ability to apply proven design principles
