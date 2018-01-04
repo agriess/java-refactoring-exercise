@@ -10,7 +10,19 @@
 
 	<name>Java Refactoring Test</name>
 	<description>Java Refactoring Test</description>
-
+    <build>
+        <plugins>
+            <plugin>
+                <version>3.2</version>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
