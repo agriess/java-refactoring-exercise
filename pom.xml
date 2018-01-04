@@ -4,25 +4,27 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.h2rd</groupId>
-	<artifactId>java-refactoring-test</artifactId>
+	<artifactId>java-refactoring-exercise</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>Java Refactoring Test</name>
-	<description>Java Refactoring Test</description>
+  <name>Java Refactoring Exercise</name>
+	<description>Java Refactoring Exercise</description>
+  
     <build>
-        <plugins>
-            <plugin>
-                <version>3.2</version>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
+      <plugins>
+        <plugin>
+          <version>3.2</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+              <source>1.8</source>
+              <target>1.8</target>
+            </configuration>
+        </plugin>
+      </plugins>
     </build>
+  
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
